@@ -20,7 +20,7 @@ class Caesar(Cipher):
         self.key = key % 26
         
     def encipher(self,string,keep_punct=False):
-        r"""Encipher string using Caesar cipher according to initialised key.
+        """Encipher string using Caesar cipher according to initialised key.
 
         Example::
 
